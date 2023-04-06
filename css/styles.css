@@ -1,0 +1,158 @@
+:root {
+  --iris: #4d5ae5;
+  --ocean: #404bbf;
+  --navy-blue: #2e2f42;
+  --green: #31d0aa;
+  --slate: #434455;
+  --light-slate: #8e8f99;
+  --cornflower: #e7e9fc;
+  --cloud: #f4f4fd;
+  --navy-blue-modal: #2e2f42;
+  --grey: #2e2f42;
+  --white: #ffffff;
+  --dairy: #fcfcfc;
+}
+/* main styles */
+body {
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate);
+  background-color: var(--white);
+}
+/* reset */
+
+.list {
+  list-style: none;  
+}
+
+.link {
+  text-decoration: none;
+  font-style: normal;
+  color: currentColor;
+}
+
+/* header styles */
+.logo {
+  font-family: Raleway, sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  align-items: center;  
+  color: var(--iris);
+}
+
+.contact {
+  font-style: normal;
+}
+.contact-link:hover,
+.contact-link:focus {
+  color: var(--ocean);
+}
+
+.span-logo {
+  color: var(--navy-blue);
+}
+
+.nav-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue);
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--ocean);
+}
+
+/* section hero */
+
+.hero {
+  background-color: var(--navy-blue);
+}
+
+.hero-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: var(--white);
+}
+
+.order-btn {
+  font: inherit;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  color: var(--white);
+  background-color: var(--iris);
+  cursor: pointer;
+}
+
+.order-btn:hover,
+.order-btn:focus {
+  background-color: var(--ocean);
+}
+
+/* styles for titles */
+.title {
+  font-weight: 700;
+  font-size: 36px;
+  text-transform: capitalize;
+  text-align: center;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue);
+}
+
+.subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue);
+}
+/* section "team" */
+
+.team {
+  background-color: var(--cloud);
+}
+
+.list-item:first-child {
+  background-color: var(--white);
+}
+
+/* footer styles */
+
+.footer {
+  background-color: var(--navy-blue);
+}
+
+.span-footer {
+  color: var(--cloud);
+}
+
+.footer-text {
+  color: var(--cloud);
+}
+/* buttons on portfolio page*/
+
+.button {
+  font: inherit;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  color: var(--iris);
+  background: var(--cloud);
+  cursor: pointer;
+}
+.button:hover,
+.button:focus {
+  color: var(--white);
+  background: var(--ocean);
+}
