@@ -161,7 +161,7 @@ img {
 }
 
 .order-btn {
-  display: block;
+  display: inline-block;
   margin: 0 auto;
 
   min-width: 169px;
@@ -320,6 +320,6 @@ img {
 }
 
 .card-text {
-  border: 1px solid var(--cloud);
+  border: 1px solid var(--cornflower);
   border-top: 0;
 }
