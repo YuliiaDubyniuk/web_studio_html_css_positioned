@@ -15,9 +15,10 @@ A static web studio page demonstrating advanced CSS positioning techniques.
    git clone https://github.com/YuliiaDubyniuk/web_studio_html_css_positioned.git
 
 ## Project Structure
-```/css/            — Stylesheets defining positioning (relative, absolute, fixed, sticky)
+```
 /images/         — Any image assets (e.g., logos, backgrounds)
-/fonts/          — Custom fonts (if included)
+/css/            — Stylesheets defining positioning (relative, absolute, fixed, sticky)
+/portfolio.html  — Portfolio page
 /index.html      — Main HTML file demonstrating layout positioning
 ```
 ## Features
